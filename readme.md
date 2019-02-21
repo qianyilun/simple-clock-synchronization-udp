@@ -9,7 +9,17 @@
 1. Creation of DatagramSocket
 
    *  A DatagramSocket object is created to carry the packet to the destination and to receive it whenever the server sends any data
-   * `DatagramSocket ds = new DatagramSocket();` is used
+   * Constructor
+   ```java
+   public DatagramSocket() throws SocketException
+
+   public DatagramSocket(int port) 
+                        throws SocketException
+   
+   public DatagramSocket(int port,
+                       InetAddress inetaddress)
+                        throws SocketException
+   ```
 
 2. Creation of DatagramPacket
 
