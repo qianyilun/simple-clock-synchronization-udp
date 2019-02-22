@@ -22,8 +22,7 @@ public class Client {
 
         String serverResponse = new String(receivePacket.getData());
         System.out.println(serverResponse);
-        long serverTimeInMillis = Long.parseLong(serverResponse); 
-        // long serverTimeInMillis = T.parse(serverResponse); 
+        long serverTimeInMillis = Long.parseLong(serverResponse.trim()); 
         
         // stop the "timer"
         long endTimeInMillis = System.currentTimeMillis();
