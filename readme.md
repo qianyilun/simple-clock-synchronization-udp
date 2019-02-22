@@ -1,6 +1,6 @@
 ## Java Socket Programming with UDP
 
-**DatagramSockets** are Java's mechansim for network communication via UDP.DatagramSockets can be used to both send and receive packets over the Internet.
+**DatagramSockets** are Java's mechansim for network communication via UDP. DatagramSockets can be used to both send and receive packets over the Internet.
 
 ### Java Datagram Programming Model Steps
 
