@@ -52,3 +52,10 @@ Server’s time is what we get from the system time
 Time from server is not the same as the local machine's time. It means clock is synced successfully.
 
 ![Screen Shot 2019-02-21 at 2.22.45 PM](https://ws1.sinaimg.cn/large/006tKfTcly1g0ew5rctjgj31c00u0wsj.jpg)
+
+
+
+## Reference
+
+* https://www.geeksforgeeks.org/working-udp-datagramsockets-java/
+* https://systembash.com/a-simple-java-udp-server-and-udp-client/
